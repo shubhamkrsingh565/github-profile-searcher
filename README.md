@@ -1,8 +1,62 @@
-# React + Vite
+# GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application built using **React + Vite**, **Tailwind CSS**, and **React Icons** to search for GitHub user profiles using the GitHub API.
 
-Currently, two official plugins are available:
+## Features
+- 🔍 Search for GitHub users by username
+- 🖼️ Display user details including avatar, bio, repositories, followers, and following count
+- 📱 Responsive and minimal UI with Tailwind CSS
+- 🌐 Fetch API for making requests to GitHub's REST API
+- ⚡ Lightweight and fast using Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- ⚛️ **React + Vite** - Frontend framework and build tool
+- 🎨 **Tailwind CSS** - Styling
+- 🖌️ **React Icons** - Icons
+- 🔗 **Fetch API** - API calls
+
+## Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/shubhamkrsingh565/github-profile-searcher.git
+   cd github-profile-searcher
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+4. **Open the app in your browser:**
+   ```
+   http://localhost:5173
+   ```
+
+## Usage
+- ⌨️ Enter a GitHub username in the search bar.
+- 🔎 Click the search button or press Enter.
+- 📋 View the user's profile details.
+
+## Deployment
+To deploy the project, you can use services like **Vercel**, **Netlify**, or **GitHub Pages**.
+
+Example deployment using Vercel:
+```sh
+npm run build
+vercel
+```
+
+## Contributing
+🤝 Feel free to fork the repository, submit issues, or create pull requests.
+
+---
+
+### Screenshots
+<!-- 🖼️ _Add screenshots of the app interface here._ -->
+
